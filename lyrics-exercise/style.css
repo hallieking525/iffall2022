@@ -1,0 +1,173 @@
+body{
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 20pt;
+    color: #333333;
+    background-color: white;
+}
+
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+#title{
+    background-color: #D47F7F;
+    border-radius: 20px;
+    border: 5px solid #333333;
+    margin-top: -100px;
+    margin-left: -10px;
+    margin-right:-10px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+#song-title{
+    font-family: proxima-nova-extra-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50pt;
+    text-align: center;
+}
+
+#artist{
+    margin-top: -20px;
+    text-align: center;
+}
+
+.weekday{
+    margin-top: 20%;
+    padding-left: 5%;
+    position: relative;
+}
+
+.graphic{
+    width: 200px;
+    height: 200px;
+    align-self: left;
+    border-radius: 10px;
+}
+
+.lyric{
+    position: absolute;
+    left: 60%;
+    top: 50%;
+}
+
+.graphic, .lyric{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.weekday {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#bridge{
+    margin-top: 20%;
+    text-align: center;
+}
+
+/* images */
+
+/* verse 1 */
+.mon-1-graphic{
+    background-image: url(images/mon-1.png);
+    background-size: cover;
+}
+
+.tues-1-graphic{
+    background-image: url(images/tue-1.png);
+    background-size: cover;
+}
+.wed-1-graphic{
+    background-image: url(images/wed-1.png);
+    background-size: cover;
+}
+.thurs-1-graphic{
+    background-image: url(images/thu-1.png);
+    background-size: cover;
+}
+
+.fri-verse-graphic{
+    background-image: url(images/fri-1.png);
+    background-size: cover;
+}
+
+/* verse 2 */
+
+.mon-2-graphic{
+    background-image: url(images/mon-2.png);
+    background-size: cover;
+}
+
+.tues-2-graphic{
+    background-image: url(images/tue-2.png);
+    background-size: cover;
+}
+.wed-2-graphic{
+    background-image: url(images/wed-2.png);
+    background-size: cover;
+}
+.thurs-2-graphic{
+    background-image: url(images/thu-2.png);
+    background-size: cover;
+}
+
+/* chorus */
+
+.sat-graphic{
+    background-image: url(images/sat.png);
+    background-size: cover;
+}
+
+.sun-graphic{
+    background-image: url(images/sun.png);
+    background-size: cover;
+}
+
+.fri-chorus-graphic{
+    background-image: url(images/fri-1.png);
+    background-size: cover;
+}
+
+/* verse 3 */
+
+.mon-3-graphic{
+    background-image: url(images/mon-3.png);
+    background-size: cover;
+}
+
+.tues-3-graphic{
+    background-image: url(images/tue-3.png);
+    background-size: cover;
+}
+.wed-3-graphic{
+    background-image: url(images/wed-3.png);
+    background-size: cover;
+}
+.thurs-3-graphic{
+    background-image: url(images/thu-3.png);
+    background-size: cover;
+}
+
+/* verse 4 */
+
+.mon-4-graphic{
+    background-image: url(images/mon-4.png);
+    background-size: cover;
+}
+
+.tues-4-graphic{
+    background-image: url(images/tue-4.png);
+    background-size: cover;
+}
+.wed-4-graphic{
+    background-image: url(images/wed-4.png);
+    background-size: cover;
+}
+.thurs-4-graphic{
+    background-image: url(images/thu-4.png);
+    background-size: cover;
+}
