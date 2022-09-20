@@ -1,0 +1,83 @@
+/* general */
+
+html{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
+    line-height: 1.5em;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3em;
+}
+
+@media (max-width: 1200px){
+   h1{
+    line-height: 70px;
+   }
+}
+
+h2, h3{
+    font-weight: 700;
+}
+
+h4{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
+}
+
+.section{
+    margin-top: 50px;
+}
+
+#header{
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+a{
+    text-decoration: none;
+    color:#8e1c51;
+    font-weight: 600;
+}
+
+a:hover{
+    color: #c15b8a;;
+}
+
+/* recipe content */
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.ingredients-list{
+    background-color: #eae9e7;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+#ingredients-filling{
+    margin-top: 10px;
+}
+
+/* websites */
+
+.website{
+    background-color: #eae9e7;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
